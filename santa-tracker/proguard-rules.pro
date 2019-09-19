@@ -111,3 +111,6 @@
 
 # Santa Snap
 -keep class com.google.android.apps.santatracker.santasnap.** { *; }
+
+-dontwarn android.test.**
+-dontwarn org.junit.**
